@@ -434,6 +434,8 @@ footer .link-socials:hover {
     0 2px 1px 0 rgba(0, 0, 0, 0.2);
   border-color: #fcfcfc;
 
+  padding: 72px 24px 24px 24px;
+
   width: 408px;
   height: 584px;
 
@@ -466,16 +468,11 @@ footer .link-socials:hover {
 }
 
 .modal-text {
-  padding-top: 72px;
   font-weight: 500;
   font-size: 16px;
   color: #2e2f42;
 
   margin-bottom: 16px;
-}
-
-.form-modal {
-  padding: 0 24px 24px 24px;
 }
 
 .modal-label {

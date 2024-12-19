@@ -436,6 +436,12 @@ footer .link-socials:hover {
 
   line-height: 2;
   letter-spacing: 0.04em;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.subscribe-input:hover,
+.subscribe-input:focus {
+  border-color: #31d0aa;
 }
 
 .subscribe-input::placeholder {
@@ -513,7 +519,6 @@ footer .link-socials:hover {
   width: 408px;
   min-height: 584px;
 
-  text-align: center;
   transform: translate(-50%, -50%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -551,6 +556,7 @@ footer .link-socials:hover {
   font-weight: 500;
   font-size: 16px;
   color: #2e2f42;
+  text-align: center;
 
   margin-bottom: 16px;
 }
@@ -560,7 +566,6 @@ footer .link-socials:hover {
   flex-direction: column;
   margin-bottom: 4px;
   align-items: flex-start;
-
   font-size: 12px;
 
   line-height: 1.17;
@@ -661,6 +666,8 @@ input:checked + label > span {
 }
 
 .btn-send {
+  display: block;
+  margin: 0 auto;
   margin-top: 24px;
   border-radius: 4px;
   padding: 16px 32px;

@@ -443,9 +443,11 @@ footer .link-socials:hover {
 }
 
 .subscribe-buttton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
   margin-left: 24px;
-  position: relative;
-  padding-right: 24px;
 
   border-radius: 4px;
   width: 165px;
@@ -467,10 +469,6 @@ footer .link-socials:hover {
 }
 
 .subscribe-icon {
-  position: absolute;
-  top: 10px;
-  margin-left: 16px;
-
   fill: #fff;
 }
 
@@ -485,6 +483,7 @@ footer .link-socials:hover {
   left: 0;
   width: 100%;
   height: 100%;
+  z-index: 999;
 
   opacity: 0;
   visibility: hidden;
